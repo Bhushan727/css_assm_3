@@ -1,0 +1,125 @@
+body{
+   
+    background-color: gray;
+}
+.hed{
+    border: 10px solid red;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    background-color: white;
+    color:darkred;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 2px 2px darkred;
+    box-shadow: 8px 8px purple;
+}
+.main{
+    border: 10px solid green;
+    position: relative;
+    width: 97vw;
+    height: 800px;
+    margin: 0;
+   
+  
+}
+.cont
+{
+    border: 10px solid red;
+    border-radius: 20px;
+    box-shadow: 8px 8px purple;
+    text-align: center;
+    background-color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 2px;
+    width: 20%;
+    height: 30%;
+    
+}
+#item1{
+    left:0;
+    
+}
+#item2{
+    position: absolute;
+    top: 0;
+    right: 0;
+ 
+}
+#item3{
+    position: absolute;
+    bottom: 0;
+    
+}
+#item4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.cent{
+    border: 10px solid red;
+    border-radius: 30px;
+    display: flex;
+   margin: 0;
+   position: fixed;
+    width: 30%;
+    height: 10%;
+    top:80%;
+    left: 35%;
+    background-color: chartreuse;
+    justify-content:space-around;
+}
+
+#lef{
+    display: inline-block;
+    font-size: xx-large;
+    bottom: 0;
+    font-style: oblique;
+    color: crimson;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+#rig{
+    display: inline-block;
+    float:right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: xx-large;
+    font-style: oblique;
+    color: crimson;
+    font-weight: bold;
+}
+.footer{
+    background-color: green;
+    border: 9px solid purple;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+#veg1{
+
+    padding-left: 50px;
+}
+.cat{
+    background-color: darksalmon;
+    display: flex;
+    text-align: center;
+   
+    margin: 10px;
+}
+#veg2{
+  justify-content: flex-end;
+   
+}
+.cat1{
+    background-color: darksalmon;
+    margin: 10px;
+}
+
